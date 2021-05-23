@@ -2,7 +2,9 @@
 import Discord from "../components/icons/Discord";
 import Github from "../components/icons/Github";
 import Instagram from "../components/icons/Instagram";
+import Spotify from "../components/icons/Spotify";
 import React from "../components/icons/React";
+import Playing from "../components/currentlyPlaying";
 import Profile from "../assets/img/name.gif";
 import { motion } from 'framer-motion';
 
@@ -22,6 +24,10 @@ const Home = () => {
               <button className="p-2 text-white transition duration-300 bg-red-400 rounded-lg text-normal hover:bg-red-500"><a href="https://github.com/imveny" target="_blank" rel="noreferrer" className="flex">Github<Github /></a></button>
               <button className="p-2 text-white transition duration-300 bg-red-400 rounded-lg text-normal hover:bg-red-500"><a href="#" target="_blank" rel="noreferrer" className="flex">Instagram<Instagram /></a></button>
               <button className="p-2 text-white transition duration-300 bg-red-400 rounded-lg text-normal hover:bg-red-500"><a href="https://discord.gg/PpaxcpcFkd" target="_blank" rel="noreferrer" className="flex">Discord<Discord /></a></button>
+              <div className="flex items-center justify-center">
+                <Spotify /> 
+                <Playing />
+              </div>
         </div>
       </div>
     </motion.div>

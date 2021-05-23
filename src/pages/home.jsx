@@ -14,8 +14,8 @@ const Home = () => {
       animate={{ opacity: 1 }}
       transition={{ duration: 0.55 }}
     >
-      <div className="flex items-center justify-center my-40">
-        <div className="flex flex-col items-center content-center justify-center p-10 mx-auto space-y-3 rounded-lg md:w-1/4 sm:w-2/4 bg-gradient-to-t from-red-400 to-red-500 md:flex-shrink-0">
+      <div className="flex items-center justify-center my-40 xl:my-48 2xl:my-60">
+        <div className="flex flex-col items-center content-center justify-center p-10 mx-auto space-y-3 rounded-lg md:w-1/4 sm:w-2/4 2xl:w-1/5 bg-gradient-to-t from-red-400 to-red-500 md:flex-shrink-0">
             <img className="pt-1 rounded-full w-36 h-36" src={Profile} alt="" srcset="" />
               <p className="text-lg font-bold text-gray-100">Veny</p>
               <span className="flex text-sm font-normal text-gray-50">Developer <React /></span>

@@ -1,9 +1,20 @@
 
+import Discord from "../components/icons/Discord";
+import Github from "../components/icons/Github";
+import Instagram from "../components/icons/Instagram";
+import React from "../components/icons/React";
+import Profile from "../assets/img/name.gif";
 const Home = () => {
   return (
-    <div className="flex flex-col items-center content-center justify-center my-80 md:flex-shrink-0">
-      <h1 className="text-gray-700 xl:text-4xl sm:text-xl extrabold">TailwindCSS + React Template</h1>
-      <button className="p-2 text-white transition duration-300 bg-blue-400 rounded-full xl:text-xl sm:text-base hover:bg-blue-600"><a href="https://tailwindcss.com/docs" target="_blank" rel="noreferrer">Documentation</a></button>
+      <div className="flex items-center justify-center my-40">
+      <div className="flex flex-col items-center content-center justify-center p-10 mx-auto space-y-3 rounded-lg md:w-1/4 sm:w-2/4 bg-gradient-to-t from-red-400 to-red-500 md:flex-shrink-0">
+          <img className="pt-1 rounded-full w-36 h-36" src={Profile} alt="" srcSet="" />
+            <p className="text-lg font-bold text-gray-100">Veny</p>
+            <span className="flex text-sm font-normal text-gray-50">Developer <React /></span>
+            <button className="p-2 text-white transition duration-300 bg-red-400 rounded-lg text-normal hover:bg-red-500"><a href="https://tailwindcss.com/docs" target="_blank" rel="noreferrer" className="flex">Github<Github /></a></button>
+            <button className="p-2 text-white transition duration-300 bg-red-400 rounded-lg text-normal hover:bg-red-500"><a href="https://tailwindcss.com/docs" target="_blank" rel="noreferrer" className="flex">Instagram<Instagram /></a></button>
+            <button className="p-2 text-white transition duration-300 bg-red-400 rounded-lg text-normal hover:bg-red-500"><a href="https://tailwindcss.com/docs" target="_blank" rel="noreferrer" className="flex">Discord<Discord /></a></button>
+      </div>
     </div>
   );
 }

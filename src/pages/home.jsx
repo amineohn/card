@@ -7,8 +7,19 @@ import React from "../components/icons/React";
 import Playing from "../components/currentlyPlaying";
 import Profile from "../assets/img/name.gif";
 import { motion } from 'framer-motion';
-
+import {useState} from "react";
+import axios from "axios";
 const Home = () => {
+ const [doing, setResponseData] = useState("");
+    axios.get("https://api.lanyard.rest/v1/users/762055588762877973")
+    .then(res => {
+      setResponseData(res.data)
+      console.log(res.data)
+      return;
+    })
+     .catch((error) => {
+      console.log(error)
+    })
   return (
     <>
     <motion.div

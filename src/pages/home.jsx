@@ -24,9 +24,7 @@ const Home = () => {
     })
   return (
     <>
-    <motion.div
-      initial={{ opacity: 0, y: '-100px' }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.7 }}
-    >
+    <motion.div initial={{ opacity: 0, y: '-100px' }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.7 }}>
       <div className="flex items-center justify-center my-40 xl:my-32 2xl:my-60">
         <div className="flex flex-col items-center content-center justify-center p-10 mx-auto space-y-3 rounded-lg shadow-xl md:w-1/4 sm:w-2/4 2xl:w-1/5 filter brightness-100 md:flex-shrink-0">
             <img className="pt-1 rounded-full w-36 h-36" src={Profile} alt="" srcset="" />

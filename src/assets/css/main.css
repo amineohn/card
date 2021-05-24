@@ -3,6 +3,9 @@
 @tailwind utilities;
 @tailwind screens;
 
+body {
+    @apply h-screen overflow-hidden bg-gradient-to-r from-fuchsia-500 via-red-600 to-orange-400;
+}
 .spacement {
     padding-left: 0.5rem;
     padding-right: 0.2rem;

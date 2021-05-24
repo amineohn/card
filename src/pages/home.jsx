@@ -14,7 +14,7 @@ const Home = () => {
     axios.get("https://api.lanyard.rest/v1/users/762055588762877973")
     .then(res => {
       setResponseData(res.data)
-      console.log(res.data)
+      //console.log(res.data)
       return;
     })
      .catch((error) => {

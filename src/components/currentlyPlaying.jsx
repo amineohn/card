@@ -6,6 +6,6 @@ const CurrentlyPlaying = () => {
     return (<span class="flex text-xs md:text-xs 2xl:text-sm text-white font-medium">Not listening to anything</span>)
   }
 
-  return (<span class="flex text-xs md:text-xs 2xl:text-sm text-white font-medium">Listening to ${lastFM.song.name} by ${lastFM.song.artist}</span>)
+  return (<span class="flex text-xs md:text-xs 2xl:text-sm text-white font-medium">Listening to {lastFM.song.name} by {lastFM.song.artist}</span>)
 };
 export default CurrentlyPlaying;

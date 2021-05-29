@@ -28,7 +28,29 @@ module.exports = {
         'warm-gray': colors.warmGray,
         'true-gray': colors.trueGray,
         coolGray: colors.coolGray,
-        blueGray: colors.blueGray
+        blueGray: colors.blueGray,
+        // Discord Theming.
+        'blurple-discord': {
+          '50': '#5865F2'
+        },
+        'yellow-discord': {
+          '50': '#FEE75C'
+        },
+        'green-discord': {
+          '50': '#57F287'
+        },
+        'red-discord': {
+          '50': '#ED4245'
+        },
+        'fuchsia-discord': {
+          '50': '#EB459E'
+        },
+        'black-discord': {
+          '50': '#23272A'
+        },
+        'black-specific-discord': {
+          '50': '#191D1F'
+        }
       }
     },
     borderRadius: {

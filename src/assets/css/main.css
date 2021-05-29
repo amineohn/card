@@ -4,7 +4,7 @@
 @tailwind screens;
 
 body {
-    @apply h-screen overflow-hidden bg-gradient-to-b from-light-blue-400 to-light-blue-200;
+    @apply h-screen overflow-hidden bg-blurple-discord-50;
 }
 .spacement {
     padding-left: 0.5rem;
